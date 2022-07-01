@@ -1,30 +1,17 @@
 
 
-# Project Name
+# afiamoah-Portfolio-setup-and-mobile-version-skeleton
 
-> Description the project.
+> this is a web page which show cases what i can do and build for institutions interms of software developement
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+html
+css
+this include linters for checking errors and fixing bags
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
@@ -36,12 +23,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/afiamoah)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/afiamoah)
 
-## 🤝 Contributing
-
-
-## Show your support
-
-Give a ⭐️ if you like this project!
 
 
 
