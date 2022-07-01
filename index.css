@@ -35,19 +35,29 @@
   background: black;
 }
 
+.section img {
+  width: 100%;
+  height: 100%;
+}
+
 .logo {
   color: white;
   margin-top: 40px;
   margin-left: 20px;
-
-
+  font-family: 'Poppins';
+  font-weight: 1000;
+text-decoration: none;
+  font-size: 20px;
+  text-align: Center;
+  Fill: Solid
+  #FFFFFF
   
 }
 
 i {
   font-size: 20px;
   margin-right: 40px;
-  margin-top: 40px;
+  margin-top: 45px;
   color: white;
 }
 
