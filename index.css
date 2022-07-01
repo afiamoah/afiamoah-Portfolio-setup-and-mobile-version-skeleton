@@ -1,3 +1,9 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .Main-Page {
   max-width: 500px;
   margin: auto;
@@ -5,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 590px;
+  height:max-width;
   width: 375px;
   left: 0;
   top: 92px;
@@ -32,12 +38,16 @@
 .logo {
   color: white;
   margin-top: 40px;
+  margin-left: 20px;
+
+
+  
 }
 
 i {
   font-size: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
+  margin-right: 40px;
+  margin-top: 40px;
   color: white;
 }
 
@@ -52,9 +62,12 @@ h2 {
   color: #fff5e1;
   display: flex;
   align-items: center;
+  margin-left: 25px;
 }
 
 h1 {
+  margin-top: 100px;
+  margin-left: 20px;
   width: 327px;
   height: 124px;
   font-family: 'Crete Round';
@@ -75,13 +88,14 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+  margin-top: 10px;
+  margin-left: 25px;
 }
 
 .imgcontainer {
   display:flex;
   flex-direction:row;
-  margin-left: 20px;
-  border: 2px solid wheat;
+  margin-left: 25px;
   width: max-content;
 
 }
@@ -94,3 +108,26 @@ img {
 #Medium{
   padding-top: 15px;
 }
+
+/* .my-works {
+  display: grid;
+  background-color: white;
+  }
+  
+  .my-works-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  
+  width: 327px;
+  height: 107px;
+  
+  
+  /* Inside auto layout */
+  
+  /* flex: none;
+  order: 0;
+  flex-grow: 0;
+  }  */
