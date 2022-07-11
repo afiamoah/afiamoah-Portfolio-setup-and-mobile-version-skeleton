@@ -1,6 +1,6 @@
 
 
-# afiamoah-Portfolio-setup-and-mobile-version-skeleton
+# afiamoah-Portfolio-setup-and-mobile-version-skeleton with main page and work section as well as about us developed. 
 
 > this is a web page which show cases what i can do and build for institutions interms of software developement
 
@@ -10,6 +10,7 @@
 html
 css
 this include linters for checking errors and fixing bags
+images are added for show casing what i do as a software developer
 
 ## Getting Started
 
