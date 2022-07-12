@@ -5,7 +5,7 @@
 }
 
 .Main-Page {
-  max-width: 1000px;
+  width: 1000px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,12 @@
   background: #3c3a39;
   width: 375px;
   height: 92px;
+}
+
+.works-section {
+  width: 375px;
+  height:2000px;
+  border: 2px solid green;
 }
 
 .section {
@@ -126,10 +132,10 @@ align-items: flex-start;
 padding: 120px 24px;
 gap: 20px;
 width: 375px;
-height: 844px;
+height:max-content;
 left: 0px;
 top: 6038px;
-border: 2px solid red;
+border-bottom: 1px solid rgba(0, 0, 0, 0.281);
 
 }
 
@@ -146,7 +152,7 @@ border: 2px solid red;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-bottom: 10px;
+  margin-bottom: 2px solid;
 }
 
 
@@ -168,7 +174,7 @@ border: 2px solid red;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 24px;
   
   display: flex;
@@ -186,6 +192,10 @@ border: 2px solid red;
   flex-grow: 0;
   background-color: #FBF8F7;
   border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+font-size: 20px;
+line-height: 24px
 }
 
 #fullname{
@@ -195,10 +205,10 @@ left: 16px;
 right: 16px;
 margin:15px;
 
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 15px;
+font-size: 18px;
 line-height: 24px;
 
 display: flex;
@@ -213,11 +223,10 @@ color: #979493;
   left: 16px;
   right: 16px;
   margin:15px;
-  
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 24px;
   
   display: flex;
@@ -226,16 +235,15 @@ color: #979493;
   color: #979493;
   }
 
-  button {
-
- height: 48px;
+button {
+height: 48px;
 width: 131px;
 left: 98px;
 top: 282px;
 border-radius: 0px;
 padding: 12px;
 
-    display: flex;
+display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
@@ -252,6 +260,40 @@ color: white;
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 700;
-font-size: 17px;
-line-height: 20pxpx;
+font-size: 18px;
+line-height: 20px;
 }
+
+.main-footer {
+width: 375px;
+height: 100px;
+left: 0px;
+top: 6886px;
+
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  
+  }
+
+  .footer-items li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    }
+
+    .final {
+      margin-top: 10px;
+    }
