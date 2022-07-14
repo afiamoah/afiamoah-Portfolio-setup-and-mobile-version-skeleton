@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Web-Container {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+
+  /* border: 2px solid red; */
+  margin: auto;
+}
+
+.header {
+  width: 1440px;
+  background: #3c3a39;
+  height: 72px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin-right: 9rem;
+}
+
+li {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.logo {
+  margin-top: 25px;
+  margin-left: 9rem;
+}
+
+.side-logo {
+  display: none;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 10% 1fr 1fr;
+  height: 870px;
+  background-image: url('ImgDesktop/Base.png');
+  background-size: cover;
+}
+
+.grid-display {
+  border: 2px solid black;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .Web-Container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-width;
+    width: 375px;
+    left: 0;
+    top: 92px;
+    border-radius: 0;
+    padding: 120px, 24px, 120px, 24px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #3c3a39;
+    width: 375px;
+    height: 92px;
+  }
+
+  .works-section {
+    width: 375px;
+    height: 2000px;
+    border: 2px solid green;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .side-logo {
+    display: flex;
+    margin-left: 13rem;
+    margin-top: -22px;
+  }
+
+  i {
+    font-size: 20px;
+    margin-right: 40px;
+    margin-top: 45px;
+    color: white;
+  }
+
+  ul {
+    display: none;
+    list-style: none;
+    margin-right: 9rem;
+  }
+
+  li {
+    display: none;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .logo {
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1600px) {
+  ul {
+    margin-right: 30rem;
+  }
+}

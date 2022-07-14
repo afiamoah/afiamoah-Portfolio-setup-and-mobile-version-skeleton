@@ -1,0 +1,8 @@
+.grid-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.items {
+  border: 2px solid black;
+}

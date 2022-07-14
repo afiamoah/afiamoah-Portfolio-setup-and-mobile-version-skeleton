@@ -32,7 +32,6 @@
 .works-section {
   width: 375px;
   height:2000px;
-  border: 2px solid green;
 }
 
 .section {
@@ -295,5 +294,5 @@ top: 6886px;
     }
 
     .final {
-      margin-top: 10px;
+      margin-top: 5px;
     }
