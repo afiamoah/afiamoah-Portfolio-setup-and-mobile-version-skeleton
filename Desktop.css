@@ -58,6 +58,36 @@ li {
   border: 2px solid black;
 }
 
+#first-child {
+  margin-top: 12rem;
+}
+
+#second-child {
+  margin-top: 1.5rem;
+}
+
+#last-child {
+  margin-top: 1.5rem;
+}
+
+#icon-child {
+  display: none;
+  margin-top: 2.5rem;
+}
+
+.aside-items {
+  margin-top: 15rem;
+  list-style: none;
+}
+
+.aside-items li img {
+  color: white;
+}
+
+.aside-items:nth-child(2) {
+  margin-top: -10px;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
   .Web-Container {
     margin: auto;
@@ -71,6 +101,19 @@ li {
     top: 92px;
     border-radius: 0;
     padding: 120px, 24px, 120px, 24px;
+  }
+
+  .main-section {
+    width: 375px;
+  }
+
+  #ds-1 {
+    display: none;
+  }
+
+  #icon-child {
+    display: block;
+    margin-top: 2.5rem;
   }
 
   .header {
