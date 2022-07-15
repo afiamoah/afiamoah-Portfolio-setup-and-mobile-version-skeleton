@@ -54,10 +54,6 @@ li {
   background-size: cover;
 }
 
-.grid-display {
-  border: 2px solid black;
-}
-
 #first-child {
   margin-top: 12rem;
 }
@@ -86,6 +82,47 @@ li {
 
 .aside-items:nth-child(2) {
   margin-top: -10px;
+}
+
+.work-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.work-header {
+  display: flex;
+  flex-direction: row;
+  margin: 8rem;
+  margin-bottom: 2px;
+}
+
+.final {
+  margin-top: 4px;
+  margin-left: 30px;
+}
+
+.selection-display {
+  width: 1400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: -90px;
+  margin-left: 7rem;
+}
+
+.section-1 {
+  margin-left: 20px;
+}
+
+.section-content {
+  margin-top: 30px;
+}
+
+.section-navs {
+  margin-top: 20px;
+}
+
+.section-button {
+  margin-top: 20px;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
