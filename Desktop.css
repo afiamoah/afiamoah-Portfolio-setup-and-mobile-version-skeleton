@@ -263,6 +263,7 @@ li {
 .contact-us {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.281);
 }
 
 .form-header {
@@ -281,7 +282,6 @@ li {
   height: max-content;
   left: 0;
   top: 6038px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.281);
   margin-top: 18px;
   margin-left: 50px;
 }
@@ -382,6 +382,12 @@ button {
   font-size: 18px;
   line-height: 20px;
   margin-left: -2px;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
