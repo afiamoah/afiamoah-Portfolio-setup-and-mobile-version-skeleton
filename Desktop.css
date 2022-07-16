@@ -228,7 +228,7 @@ li {
   flex-direction: column;
   margin-top: 20px;
   width: 1440px;
-  height: 768px;
+  height: min-content;
   grid-auto-rows: 369px;
   row-gap: 30px;
 }
@@ -251,6 +251,137 @@ li {
 .final-lines {
   margin-left: 95px;
   margin-top: -40px;
+}
+
+.other-items {
+  margin-left: 120px;
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.form-header {
+  margin-top: 150px;
+  margin-left: 120px;
+}
+
+/* //this is the starting point of the form css */
+.Contact-Form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 20px;
+  width: 375px;
+  height: max-content;
+  left: 0;
+  top: 6038px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+  margin-top: 18px;
+  margin-left: 50px;
+}
+
+.form-control {
+  width: 684px;
+  height: 48px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border-bottom: 1px solid  rgba(0, 0, 0, 0.144);
+}
+
+.form-control input {
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  margin-bottom: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #979493;
+  border: none;
+}
+
+#form-control-textarea {
+  width: 684px;
+  height: 114px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background-color: #fbf8f7;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#fullname {
+  width: 295px;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  margin: 15px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #979493;
+}
+
+#email {
+  width: 295px;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  margin: 15px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #979493;
+}
+
+button {
+  height: 48px;
+  width: 131px;
+  left: 98px;
+  top: 282px;
+  border-radius: 0;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 10px;
+  background: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  border: none;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin-left: -2px;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
