@@ -1,0 +1,13 @@
+.items {
+  border: 2px solid red;
+  width: 300px;
+  height: 200px;
+  transition: width 2s, height 3s, delay 5s, transform 3s;
+}
+
+.items:hover {
+  width: 500px;
+  height: 700px;
+  background-color: green;
+  transform: rotate(180deg);
+}
