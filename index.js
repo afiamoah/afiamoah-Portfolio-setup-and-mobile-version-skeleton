@@ -14,5 +14,3 @@ for (var x = 0; x < Links.length; x++) {
     });
 }
 
-alert("alert");
-console.log("haha");
