@@ -1,16 +1,18 @@
-const menu=document.querySelector(".hamburger")
-const menuItems=document.querySelector(".nav-container")
+/* eslint-disable */
+const MobileMenu = document.querySelector(".hamburger");
+const MenuItems = document.querySelector(".nav-container");
 
-menu.addEventListener('click',function(){
-  menu.classList.toggle("active")
-  menuItems.classList.toggle("active")
-
-})
-
-const navelements=document.querySelectorAll(".nav-items");
-for(var x=0;x<navelements.length;x++){
-  navelements[x].addEventListener('click',()=>{
-    menu.classList.remove("active")
-    menuItems.classList.remove("active")
-  })
+MobileMenu.addEventListener("click", function () {
+    MobileMenu.classList.toggle("active");
+    MenuItems.classList.toggle("active");
+});
+const Links = document.querySelectorAll(".nav-items");
+for (var x = 0; x < Links.length; x++) {
+    Links[x].addEventListener("click", () => {
+        MobileMenu.classList.remove("active");
+        MenuItems.classList.remove("active");
+    });
 }
+
+alert("alert");
+console.log("haha");
