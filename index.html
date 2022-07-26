@@ -11,15 +11,19 @@
   <body>
     <header class="header">
       <a href="#" class="logo-nombre">Afiamoah Samuel</a>
-      <div class="hamburger">
-        <nav class="navlinks">
-          <ul>
-            <li><a href="#porfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+      <nav class="navlinks">
+        <ul class="nav-container">
+          <li class="nav-items"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-items"><a href="#about">About</a></li>
+          <li class="nav-items"><a href="#contact">Contact</a></li>
+          <li class="last-line"><span class="drop-container"></span></li>
+        </ul>
+           <div class="hamburger">
+        <span class="ham"></span>
+        <span class="ham"></span>
+        <span class="ham"></span>
       </div>
+      </nav>
     </header>
     <section class="principal">
       <div class="profession">
@@ -52,7 +56,7 @@
       </div>
     </section>
     
-  <section class="work">
+  <section class="work" id="portfolio">
     <div class="work-tittle">
       <div>
         <h2>My Recent Work</h2>
@@ -206,7 +210,7 @@
     </div>
   </section>
     <!--About-->
-    <section class="about">
+    <section class="about" id="about">
       <h1 class="me-tittle">About me</h1>
       <div class="about-text">
         <p>
@@ -264,7 +268,7 @@
       </ul>
     </div>
   </section>
-  <section class="form">
+  <section class="form" id="contact">
     <p class="form-text">
       I'm always interested in hearing about new projects, so if you'd like to
       chat please get in touch.
@@ -328,6 +332,7 @@
       <div class="final-line"></div>
     </div>
   </footer>
+  <script src="index.js"></script>
   </body>
 </html>
 
