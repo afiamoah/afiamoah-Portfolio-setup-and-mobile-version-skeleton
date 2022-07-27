@@ -1032,11 +1032,11 @@ textarea[type="text"]::placeholder {
     left: 100%;
     margin-top: 0;
     width: 100%;
-    height: 700px;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: 03s;
+    transition: 01s;
     background-color: #3c3a39;
     color: white;
   }
@@ -1066,4 +1066,3 @@ textarea[type="text"]::placeholder {
     left: 0;
   }
 }
-
