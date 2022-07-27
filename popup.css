@@ -1,0 +1,45 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@300;700&family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+.Main-Container {
+  display: flex;
+  flex-direction: column;
+  height: 631px;
+  width: 1156px;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 0;
+  border: 2px solid red;
+}
+
+.top-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px;
+}
+
+.header-1 {
+  width: 1056px;
+  font-family: Crete Round;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+}
+
+.close-Icon {
+  font-size: 40px;
+  margin-right: 10px;
+}
