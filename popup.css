@@ -10,3 +10,281 @@
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
 }
+
+.top-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  margin-top: 50px;
+}
+
+.header-1 {
+  width: 1056px;
+  font-family: Crete Round;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+}
+
+.remove-btn {
+  border: none;
+  background-color: white;
+}
+
+.header-2 {
+  display: none;
+}
+
+.close-Icon {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.nav-bar {
+  margin: 30px;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: -40px;
+  margin-left: -7px;
+}
+
+.nav-bar ul li {
+  margin: 7px;
+  border: 1px solid #7f8184;
+  padding: 5px;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 60% 50%;
+  grid-template-rows: 100% 100%;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.section-1 {
+  height: 448px;
+  width: 659px;
+  left: 24px;
+  top: 156px;
+  border-radius: 0;
+  background-size: cover;
+}
+
+.section-2 {
+  height: 336px;
+  width: 424px;
+  left: 0;
+  top: 0;
+  border-radius: nullpx;
+  margin-left: 10px;
+}
+
+.live-section {
+  margin-top: 15%;
+}
+
+.live-section ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.live-section ul li {
+  display: flex;
+  margin-left: 10px;
+  height: 48px;
+  width: 134px;
+  padding: 12px;
+  background: #f55800;
+  color: white;
+}
+
+.live-section ul li:nth-child(2) {
+  display: flex;
+  height: 48px;
+  width: 159px;
+  left: 849px;
+  top: 556px;
+  padding: 12px;
+  background: #f55800;
+  color: white;
+}
+
+.live-section ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.icon-image {
+  margin-left: 12px;
+}
+
+.details {
+  width: 424px;
+  height: 336px;
+  font-family: Crete Round;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #344563;
+}
+
+.details-2 {
+  display: none;
+}
+
+.section-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .Main-Popup {
+    display: flex;
+    flex-direction: column;
+    height: 718px;
+    width: 343px;
+    margin-left: 30px;
+    top: 80%;
+    border-radius: 0;
+  }
+
+  .remove-btn {
+    border: none;
+    margin-right: 40px;
+    background-color: none;
+    width: 30px;
+    margin-top: -50px;
+  }
+
+  img {
+    padding: 5px;
+    height: 718px;
+    width: 343px;
+    background: cover;
+    display: none;
+  }
+
+  .close-Icon {
+    font-size: 40px;
+    margin-right: 50px;
+    cursor: pointer;
+  }
+
+  .header-1 {
+    display: none;
+  }
+
+  .header-2 {
+    display: flex;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: -30px;
+  }
+
+  .top-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: -25px;
+    margin-top: 50px;
+  }
+
+  .nav-bar {
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+
+  .main-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 311px;
+    margin-left: 16px;
+    top: 170px;
+    border-radius: 0;
+  }
+
+  .section-1 {
+    display: none;
+  }
+
+  .section-mobile {
+    display: flex;
+    height: 220px;
+    width: 311px;
+    left: 16px;
+    margin-top: -17px;
+    border-radius: 0;
+    background-size: cover;
+  }
+
+  .section-2 {
+    height: 400px;
+    width: 311px;
+    margin-left: -1px;
+    margin-top: -190px;
+  }
+
+  .live-section ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: -25%;
+    margin-left: 12px;
+  }
+
+  .details {
+    display: none;
+  }
+
+  .details-2 {
+    display: flex;
+    height: 220px;
+    width: 311px;
+    font-family: Crete Round;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .live-section {
+    margin-top: 20%;
+    margin-right: 5px;
+  }
+
+  .live-section ul li:nth-child(1) {
+    margin-left: -5px;
+  }
+}
+
+/* .overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+} */
