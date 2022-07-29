@@ -13,7 +13,7 @@ ProjectDetails = [
     // eslint-disable-next-line no-dupe-keys
     live_version: 'http://eldiamontessori.com',
     source: 'https://github.com/afiamoah',
-    technologies: ['Laravel', 'PHP', 'HTML', 'JavaScript'],
+    technologies: ['HTML', 'Bootstrap', 'Ruby'],
   },
   {
     id: '1',
@@ -23,7 +23,7 @@ ProjectDetails = [
     featured_image: 'works-img/Placeholder.png',
     live_version: 'https://frankgina.com.gh',
     source: 'https://github.com/afiamoah',
-    technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
+    technologies: ['HTML', 'Bootstrap', 'Ruby'],
   },
   {
     id: '2',
@@ -32,7 +32,7 @@ ProjectDetails = [
     description: 'A website build for HackWell Int. School  for their School.',
     live_version: 'https://www.babylontruckingllc.com',
     source: 'https://github.com/learnwithalfred',
-    technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
+    technologies: ['HTML', 'Bootstrap', 'Ruby'],
   },
   {
     id: '3',
@@ -41,7 +41,7 @@ ProjectDetails = [
     description: 'An Educational Website for Learning. ',
     live_version: 'https://www.suayebi.com',
     source: 'https://github.com/afiamoah',
-    technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
+    technologies: ['HTML', 'Bootstrap', 'Ruby'],
   },
   {
     id: '4',
@@ -50,7 +50,7 @@ ProjectDetails = [
     description: 'A freelance project built for babylon logistics company. ',
     live_version: 'https://www.babylontruckingllc.com',
     source: 'https://github.com/afiamoah',
-    technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
+    technologies: ['HTML', 'Bootstrap', 'Ruby'],
   },
   {
     id: '5',
@@ -59,7 +59,7 @@ ProjectDetails = [
     description: 'A School Website build for Christ model Academy.  ',
     featured_image: 'works-img/3.png',
     source: 'https://github.com/learnwithalfred',
-    technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
+    technologies: ['HTML', 'Bootstrap', 'Ruby'],
   },
 ];
 
@@ -106,7 +106,7 @@ showitem.forEach((data) => {
         <ul>
         <li><a href="">html</a></li>
         <li><a href="">Bootstrap</a></li>
-        <li><a href="">Ruby</a></li>
+        <li><a href="">Ruby on rails</a></li>
         </ul>
         </nav>
        </header>
