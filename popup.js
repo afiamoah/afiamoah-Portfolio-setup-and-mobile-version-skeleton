@@ -1,4 +1,3 @@
-
 let ProjectDetails = [];
 const MyProjects = document.querySelector('.cards');
 let ShowProjects = '';
@@ -24,7 +23,7 @@ ProjectDetails = [
     featured_image: 'works-img/Placeholder.png',
     live_version: 'https://frankgina.com.gh',
     source: 'https://github.com/afiamoah',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
   },
   {
     id: '2',
@@ -33,7 +32,7 @@ ProjectDetails = [
     description: 'A website build for HackWell Int. School  for their School.',
     live_version: 'https://www.babylontruckingllc.com',
     source: 'https://github.com/learnwithalfred',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
   },
   {
     id: '3',
@@ -42,7 +41,7 @@ ProjectDetails = [
     description: 'An Educational Website for Learning. ',
     live_version: 'https://www.suayebi.com',
     source: 'https://github.com/afiamoah',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
   },
   {
     id: '4',
@@ -51,7 +50,7 @@ ProjectDetails = [
     description: 'A freelance project built for babylon logistics company. ',
     live_version: 'https://www.babylontruckingllc.com',
     source: 'https://github.com/afiamoah',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
   },
   {
     id: '5',
@@ -60,7 +59,7 @@ ProjectDetails = [
     description: 'A School Website build for Christ model Academy.  ',
     featured_image: 'works-img/3.png',
     source: 'https://github.com/learnwithalfred',
-    technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    technologies: ['HTML', 'Bootstrap', 'Ruby on rails'],
   },
 ];
 
