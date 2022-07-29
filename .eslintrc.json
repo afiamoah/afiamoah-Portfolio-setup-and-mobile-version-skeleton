@@ -12,6 +12,8 @@
     "extends": ["airbnb-base"],
     "rules": {
      "no-shadow": "off",
+     "linebreak-style": ["error","windows"],
+     "no-dupe-keys": ["error"],
       "no-param-reassign": "off",
       "eol-last": "off",
       "import/extensions": [ 1, {
@@ -20,7 +22,8 @@
     },
     "ignorePatterns": [
       "dist/",
-      "build/"
+      "build/",
+      ".js"
     ]
   }
   
