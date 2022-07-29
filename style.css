@@ -268,7 +268,7 @@ li {
 .work-img {
   width: 327px;
   height: 237px;
-  background-image: url('works-img/Img\ Placeholder.png');
+  background-image: url('works-img/Placeholder.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -386,7 +386,7 @@ li {
 
 .hide-card:hover {
   cursor: pointer;
-  background-image: url(works-img/Img\ Placeholder\ no\ opacity.png);
+  background-image: url(works-img/Placeholder.png);
   text-indent: -9999px;
   -ms-transform: scale(1.01); /* IE 9 */
   -webkit-transform: scale(1.01); /* Safari 3-8 */

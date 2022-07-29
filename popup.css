@@ -22,7 +22,7 @@
 
 .header-1 {
   width: 1056px;
-  font-family: Crete Round;
+  font-family: "Crete Round";
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
@@ -59,10 +59,12 @@
   margin: 7px;
   border: 1px solid #7f8184;
   padding: 5px;
+  font-family: "Crete Round";
 }
 
 .nav-bar ul li a {
   text-decoration: none;
+  font-family: "Crete Round";
 }
 
 .main-section {
@@ -193,14 +195,15 @@
 
   .header-2 {
     display: flex;
-    font-family: Roboto;
+    font-family: "Crete Round";
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
     letter-spacing: 0;
     text-align: left;
     margin-left: 40px;
-    margin-top: -30px;
+    margin-top: -40px;
+    width: 259px;
   }
 
   .top-items {
@@ -215,6 +218,12 @@
   .nav-bar {
     margin-top: 80px;
     margin-left: 20px;
+  }
+
+  .nav-bar ul li a {
+    text-decoration: none;
+    font-family: "Crete Round";
+    font-weight: 700px;
   }
 
   .main-section {
@@ -251,7 +260,7 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-top: -25%;
+    margin-top: -23%;
     margin-left: 12px;
   }
 
@@ -271,20 +280,29 @@
   }
 
   .live-section {
-    margin-top: 20%;
+    margin-top: 30%;
     margin-right: 5px;
   }
 
   .live-section ul li:nth-child(1) {
     margin-left: -5px;
   }
-}
 
-/* .overlay {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-} */
+  .icon-image {
+    display: none;
+  }
+
+  .icon-mobile {
+    width: 20px;
+    margin-left: 12px;
+    margin-top: 5px;
+  }
+
+  .live-section ul li:nth-child(2) {
+    margin-left: 20px;
+  }
+
+  #ic {
+    margin-top: 2px;
+  }
+}

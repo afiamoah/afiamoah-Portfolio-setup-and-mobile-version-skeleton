@@ -6,7 +6,7 @@ const PopupMenu = document.querySelector('.Main-Popup');
 ProjectDetails = [
   {
     id: '0',
-    name: 'School Management',
+    name: 'Eldia Montessori',
     live_version: 'http://eldiamontessori.com',
     description: 'A School Website build for Eldia Montessori.',
     featured_image: 'works-img/3.png',
@@ -14,52 +14,64 @@ ProjectDetails = [
     live_version: 'http://eldiamontessori.com',
     source: 'https://github.com/afiamoah',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    icon1: 'black-social/Export.png',
+    icon2: 'black-social/Vector.png',
   },
   {
     id: '1',
-    name: 'Frankgina Company',
+    name: 'Fgina Company',
     description:
               'A website build for Frankgina Company for their product advertizement.',
     featured_image: 'works-img/Placeholder.png',
     live_version: 'https://frankgina.com.gh',
     source: 'https://github.com/afiamoah',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    icon1: 'black-social/Export.png',
+    icon2: 'black-social/Vector.png',
   },
   {
     id: '2',
-    name: 'HackWell Int.School',
+    name: 'HackWell School',
     featured_image: 'works-img/cards.png',
     description: 'A website build for HackWell Int. School  for their School.',
     live_version: 'https://www.babylontruckingllc.com',
     source: 'https://github.com/learnwithalfred',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    icon1: 'black-social/Export.png',
+    icon2: 'black-social/Vector.png',
   },
   {
     id: '3',
-    name: 'The Suayebi Project',
+    name: 'Suayebi Project',
     featured_image: 'works-img/image.png',
     description: 'An Educational Website for Learning. ',
     live_version: 'https://www.suayebi.com',
     source: 'https://github.com/afiamoah',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    icon1: 'black-social/Export.png',
+    icon2: 'black-social/Vector.png',
   },
   {
     id: '4',
-    name: 'babylontruck website',
+    name: 'B.truck website',
     featured_image: 'works-img/2.png',
     description: 'A freelance project built for babylon logistics company. ',
     live_version: 'https://www.babylontruckingllc.com',
     source: 'https://github.com/afiamoah',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    icon1: 'black-social/Export.png',
+    icon2: 'black-social/Vector.png',
   },
   {
     id: '5',
-    name: 'Christ Model Academy',
+    name: 'Christ Model Sch.',
     live_version: 'http://christmodel.academy',
     description: 'A School Website build for Christ model Academy.  ',
     featured_image: 'works-img/3.png',
     source: 'https://github.com/learnwithalfred',
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
+    icon1: 'black-social/Export.png',
+    icon2: 'black-social/Vector.png',
   },
 ];
 
@@ -124,11 +136,12 @@ showitem.forEach((data) => {
             <div class="live-section">             
                 <ul>
                     <li><a href="${ProjectDetails[Index].live_version}">See Live</a>
-                        <img class="icon-image" src="black-social/Export.png" alt="live view icon"></li>
+                    <img class="icon-image" src="black-social/Export.png" alt="live view icon">
+                        <span class="icon-mobile" id="ic" style="background-image: url(${ProjectDetails[Index].icon1});"></span>
                         <li><a href="">See Source</a>
-                            <img class="icon-image" src="black-social/Vector.png" alt="live view icon"></li>
-                    
-                 
+                            <img class="icon-image"  src="black-social/Vector.png" alt="live view icon">
+                            <span class="icon-mobile"   style="background-image: url(${ProjectDetails[Index].icon2});"></span></li>
+                            
                 </ul>                         
             </div>
         </section>
