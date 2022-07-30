@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Afiamoah's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="popup.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
   </head>
   <body>
     <header class="header">
       <a href="#" class="logo-nombre">Afiamoah Samuel</a>
-      <div class="hamburger">
-        <nav class="navlinks">
-          <ul>
-            <li><a href="#porfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+      <nav class="navlinks">
+        <ul class="nav-container">
+          <li class="nav-items"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-items"><a href="#about">About</a></li>
+          <li class="nav-items"><a href="#contact">Contact</a></li>
+        </ul>
+           <div class="hamburger">
+        <span class="ham"></span>
+        <span class="ham"></span>
+        <span class="ham"></span>
       </div>
+      </nav>
     </header>
+    <div class="Main-Popup">
+      <!-- this section shows its data dynamically from the javascript -->
+         </div>
     <section class="principal">
       <div class="profession">
         <h1 class="tittle">Hey There! I'm Afiamoah</h1>
@@ -51,8 +58,8 @@
         </ul>
       </div>
     </section>
-    
-  <section class="work">
+  <section class="work" id="portfolio">
+   
     <div class="work-tittle">
       <div>
         <h2>My Recent Work</h2>
@@ -61,7 +68,6 @@
     </div>
     <div class="post">
       <div class="work-img">
-        <!--<img src="./works-img/Img Placeholder.png" alt="Workplace">-->
       </div>
       <div class="div-post">
         <h2 class="multi-post">Multi-Post Stories</h2>
@@ -78,135 +84,17 @@
           <li class="tag three">BOOTSTRAP</li>
           <li class="tag four">RUBY</li>
         </ul>
-        <button class="see-project">See Project</button>
+        <button class="button" id="seepro">See Project</button>
       </div>
     </div>
+   
   </section>
   
   <section class="cards">
-    <!--One-->
-    <div class="work-title1">
-      <div class="hide-card">
-        <div>
-          <h2>Profesional Art Printing Data</h2>
-          <p class="work-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard
-          </p>
-        </div>
-        <ul class="codes">
-          <li class="box">html</li>
-          <li class="box">bootstrap</li>
-          <li class="box">Ruby</li>
-        </ul>
-      </div>
-      <div class="button-area">
-        <button type="button" class="button">See Project</button>
-      </div>
-    </div>
-    <!--Two-->
-    <div class="work-title1">
-      <div class="hide-card">
-        <div>
-          <h2>Profesional Art Printing Data</h2>
-          <p class="work-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard
-          </p>
-        </div>
-        <ul class="codes">
-          <li class="box">html</li>
-          <li class="box">bootstrap</li>
-          <li class="box">Ruby</li>
-        </ul>
-      </div>
-      <div class="button-area">
-        <button type="button" class="button">See Project</button>
-      </div>
-    </div>
-    <!--Three-->
-    <div class="work-title1">
-      <div class="hide-card">
-        <div>
-          <h2>Profesional Art Printing Data</h2>
-          <p class="work-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard
-          </p>
-        </div>
-        <ul class="codes">
-          <li class="box">html</li>
-          <li class="box">bootstrap</li>
-          <li class="box">Ruby</li>
-        </ul>
-      </div>
-      <div class="button-area">
-        <button type="button" class="button">See Project</button>
-      </div>
-    </div>
-    <!--Four-->
-    <div class="work-title1">
-      <div class="hide-card">
-        <div>
-          <h2>Profesional Art Printing Data</h2>
-          <p class="work-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard
-          </p>
-        </div>
-        <ul class="codes">
-          <li class="box">html</li>
-          <li class="box">bootstrap</li>
-          <li class="box">Ruby</li>
-        </ul>
-      </div>
-      <div class="button-area">
-        <button type="button" class="button">See Project</button>
-      </div>
-    </div>
-    <!--Five-->
-    <div class="work-title1">
-      <div class="hide-card">
-        <div>
-          <h2>Profesional Art Printing Data</h2>
-          <p class="work-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard
-          </p>
-        </div>
-        <ul class="codes">
-          <li class="box">html</li>
-          <li class="box">bootstrap</li>
-          <li class="box">Ruby</li>
-        </ul>
-      </div>
-      <div class="button-area">
-        <button type="button" class="button">See Project</button>
-      </div>
-    </div>
-    <!--Six-->
-    <div class="work-title1">
-      <div class="hide-card">
-        <div>
-          <h2>Profesional Art Printing Data</h2>
-          <p class="work-description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required. has been the industry's standard
-          </p>
-        </div>
-        <ul class="codes">
-          <li class="box">html</li>
-          <li class="box">bootstrap</li>
-          <li class="box">Ruby</li>
-        </ul>
-      </div>
-      <div class="button-area">
-        <button type="button" class="button">See Project</button>
-      </div>
-    </div>
+    <!-- this section shows its data dynamically from the javascript  -->
   </section>
     <!--About-->
-    <section class="about">
+    <section class="about" id="about">
       <h1 class="me-tittle">About me</h1>
       <div class="about-text">
         <p>
@@ -264,7 +152,7 @@
       </ul>
     </div>
   </section>
-  <section class="form">
+  <section class="form" id="contact">
     <p class="form-text">
       I'm always interested in hearing about new projects, so if you'd like to
       chat please get in touch.
@@ -282,6 +170,7 @@
         maxlength="30"
         required
       />
+      <small class="name-checker"></small>
       <input
         type="email"
         class="form-email"
@@ -289,6 +178,7 @@
         placeholder="Email address"
         required
       />
+      <small class="email-checker"></small>
       <textarea
         name="comments"
         class="form-comments"
@@ -328,6 +218,11 @@
       <div class="final-line"></div>
     </div>
   </footer>
+  <div class="overlay" id="overlay"></div>
+  <!-- ////////////////////////////////////////// -->
+  <script src="index.js"></script>
+  <script src="popup.js"></script>
+  <script src="validate.js"></script>
   </body>
 </html>
 
