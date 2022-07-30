@@ -269,13 +269,13 @@
   }
 
   .details-2 {
-    display: flex;
+    display: block;
     height: 220px;
     width: 311px;
     font-family: Crete Round;
     font-weight: 400;
     font-size: 17px;
-    line-height: 30px;
+    line-height: 25px;
     color: #344563;
   }
 

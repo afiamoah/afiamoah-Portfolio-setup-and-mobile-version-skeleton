@@ -2,6 +2,8 @@ let ProjectDetails = [];
 const MyProjects = document.querySelector('.cards');
 let ShowProjects = '';
 const PopupMenu = document.querySelector('.Main-Popup');
+// eslint-disable-next-line no-unused-vars
+// let ProjectsView = document.querySelector('.work');
 // array object containing data for the page rendering.
 ProjectDetails = [
   {
@@ -128,8 +130,17 @@ showitem.forEach((data) => {
         
         <section class="section-2">
             <div class="description">
-                <p class="details">${ProjectDetails[Index].description}</p>
-                      <p class="details-2">${ProjectDetails[Index].description}</p>
+                <p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting
+                 industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                 when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem
+                  Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                 text ever since the 1500s, when an unknown printer took a galley of type 
+                 and scrambled it 1960s with the releax map lapora verita.</p>
+                      <p class="details-2">Lorem Ipsum is simply dummy text of the printing
+                       and typesetting industry. Lorem Ipsum has been the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to mak
+                      e a type specimen book. It has survived not only five centuries, but also
+                       the leap into electronic typesetting, remaining essent</p>
             </div>
           
             
