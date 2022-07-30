@@ -24,11 +24,17 @@ images are added for show casing what i do as a software developer
 ## Authors
 
 👤 **Author1**
+ 
 
 - GitHub: [@githubhandle](https://github.com/afiamoah)
 - Twitter: [@twitterhandle](https://twitter.com/afiamoah)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/afiamoah)
 
+👤 **Author2**
+
+- GitHub: [@oscah01](https://github.com/oscah01)
+- Twitter: [@killer_pip](https://twitter.com/killer_pip)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/isaya alphonce)
 
 
 
