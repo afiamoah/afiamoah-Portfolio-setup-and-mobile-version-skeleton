@@ -3,7 +3,6 @@ const MyProjects = document.querySelector('.cards');
 let ShowProjects = '';
 const PopupMenu = document.querySelector('.Main-Popup');
 // eslint-disable-next-line no-unused-vars
-// let ProjectsView = document.querySelector('.work');
 // array object containing data for the page rendering.
 ProjectDetails = [
   {
