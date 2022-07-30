@@ -387,6 +387,10 @@ li {
   transition: transform 0.5s;
 }
 
+.small {
+  color: red;
+}
+
 .hide-card:hover {
   cursor: pointer;
   background-image: url(works-img/Placeholder.png);
